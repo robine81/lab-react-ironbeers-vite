@@ -9,10 +9,32 @@ a {
   color: black;
 }
 
+h3 {
+  color: grey;
+}
+
 .home {
   display: flex;
   flex-direction: column;
   justify-content: left;
   padding-left: 2rem;
   padding-right: 2rem;
+}
+
+.list_images {
+  width: 50px;
+}
+
+.beer-list{
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  padding-left: 2rem;
+  padding-right: 2rem;
+
+}
+
+.beer-list-details{
+  padding-left: 30px;
+  line-height: 1rem;
 }
