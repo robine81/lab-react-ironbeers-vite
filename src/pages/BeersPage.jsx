@@ -50,7 +50,7 @@ function BeersPage() {
       allBeers.map((beer) => (
       <div class="beer-list">
         <div>
-        <Link to='/beers/:beerId'> 
+        <Link to={`/beers/${beer._id}`}> 
          <img class='list_images' src={beer.image_url} alt={beer.name}/>
         </Link>
         </div>
